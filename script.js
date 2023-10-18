@@ -1,4 +1,4 @@
- function showTime() {
+  function showTime() {
   var updateClock = function () {
     var date = new Date();
     var h = date.getHours() % 12 || 12;
