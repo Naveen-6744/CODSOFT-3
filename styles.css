@@ -1,13 +1,23 @@
- body {
-    background: black;
+  body {
+    background: black;  
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock-display {
+    border: 2px dashed #FF5733;  
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 20px 10px rgba(255, 87, 51, 0.5);  
 }
 
 .clock {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    color: #17D4FE;
+    color: #FF5733;  
     font-size: 60px;
     font-family: Orbitron;
     letter-spacing: 7px;
