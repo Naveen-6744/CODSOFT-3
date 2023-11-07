@@ -1,4 +1,4 @@
-  body {
+   body {
     background: #1a1a1a;  
 }
 
@@ -15,10 +15,20 @@
     padding: 10px;
     box-shadow: 0 0 20px 10px rgba(255, 87, 51, 0.5);  
 }
-
+.divider {
+    border: none;
+    border-top: 1px solid #FF5733; 
+    margin: 20px 0;  
+}
 .clock {
     color: #FF5733;  
     font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+.date {
+    color: #FF5733;  
+    font-size: 20px;
     font-family: Orbitron;
     letter-spacing: 7px;
 }
