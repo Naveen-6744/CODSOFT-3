@@ -21,7 +21,6 @@ function showTime() {
         document.getElementById("DateDisplay").innerText = today;
         document.getElementById("DateDisplay").textContent = today;
     };
-
     updateClock();
 
     setInterval(updateClock, 1000);
